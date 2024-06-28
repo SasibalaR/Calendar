@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "41B58216-21BE-48D3-B09D-B9F5C85B51F3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89ACA875-C43B-45FA-B487-90E3CE8BC35D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Calendar/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "presentCalendarModalToAddEvent(_:eventStore:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DD098FB-68AB-4293-BAE2-6C70F2A9F18D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Calendar/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "presentEventCalendarDetailModal(event:eventStore:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6DD098FB-68AB-4293-BAE2-6C70F2A9F18D - dcf22d155b859297"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Calendar.ViewController.presentEventCalendarDetailModal(event: __C.EKEvent, eventStore: __C.EKEventStore) -&gt; ()"
+                  moduleName = "Calendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasibala/Technical/Xcode/Calendar/Calendar/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111">
+               </Location>
+               <Location
+                  uuid = "6DD098FB-68AB-4293-BAE2-6C70F2A9F18D - dcf22d155b859297"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Calendar.ViewController.presentEventCalendarDetailModal(event: __C.EKEvent, eventStore: __C.EKEventStore) -&gt; ()"
+                  moduleName = "Calendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasibala/Technical/Xcode/Calendar/Calendar/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FC87F55-D6C7-4992-BD82-50D71841B1C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Calendar/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E555801-D5AC-4A38-9498-682C293BD53F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Calendar/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
