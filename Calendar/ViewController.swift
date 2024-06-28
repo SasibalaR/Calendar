@@ -15,7 +15,6 @@ class ViewController: UIViewController, EKEventEditViewDelegate {
         })
 
     }
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +22,7 @@ class ViewController: UIViewController, EKEventEditViewDelegate {
         show()
      }
 
-    func show()  {
+    func show() {
         let eventStore = EKEventStore()
         let event = EKEvent(eventStore: eventStore)
         event.title = "privacy check"
@@ -34,9 +33,9 @@ class ViewController: UIViewController, EKEventEditViewDelegate {
         controller.event = event
         controller.eventStore = eventStore
         controller.editViewDelegate = self
-        
+
         self.presentEventCalendarDetailModal(event: event, eventStore: eventStore)
-        
+
 //        eventStore.requestAccess(to: .event, completion: { [weak self] (granted, error) in
 //                          if granted {
 //                              OperationQueue.main.addOperation {
@@ -48,7 +47,7 @@ class ViewController: UIViewController, EKEventEditViewDelegate {
 ////                              completion?(false)
 //                          }
 //                      })
-        
+
 ////        self.present(controller, animated: true)
 //        controller.modalPresentationStyle = .fullScreen
 //        if let root = UIApplication.shared.keyWindow?.rootViewController {
@@ -73,9 +72,9 @@ class ViewController: UIViewController, EKEventEditViewDelegate {
                  }
                  completion?(true)
              case .notDetermined:
-                 //Auth is not determined
-                 //We should request access to the calendar
-                 eventStore.requestAccess(to: .event, completion: { [weak self] (granted, error) in
+                 // Auth is not determined
+                 // We should request access to the calendar
+                 eventStore.requestAccess(to: .event, completion: { [weak self] (granted, _) in
                      if granted {
                          OperationQueue.main.addOperation {
                              self?.presentEventCalendarDetailModal(event: event, eventStore: eventStore)
@@ -103,11 +102,11 @@ class ViewController: UIViewController, EKEventEditViewDelegate {
         eventModalVC.event = event
         eventModalVC.eventStore = eventStore
         eventModalVC.editViewDelegate = self
-        
+
         if #available(iOS 13, *) {
             eventModalVC.modalPresentationStyle = .fullScreen
         }
-        
+
         if let root = UIApplication.shared.keyWindow?.rootViewController {
             root.present(eventModalVC, animated: true, completion: {
 //                statusBarStyle = UIApplication.shared.statusBarStyle
@@ -117,4 +116,3 @@ class ViewController: UIViewController, EKEventEditViewDelegate {
     }
 
 }
-
